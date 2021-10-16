@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TH_TestNG.LG_test">
+        <methods>
+          <include name="back_homepage_2"/>
+          <include name="click_support"/>
+          <include name="verify_homepage"/>
+          <include name="close_browser"/>
+          <include name="back_homepage"/>
+          <include name="open_browser"/>
+        </methods>
+      </class> <!-- TH_TestNG.LG_test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
