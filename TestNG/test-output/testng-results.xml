@@ -1,45 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="2" total="10" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-16T11:44:18 ICT" name="Default suite" finished-at="2021-10-16T11:44:24 ICT" duration-ms="6384">
+  <suite started-at="2021-10-19T20:01:29 ICT" name="Default suite" finished-at="2021-10-19T20:01:37 ICT" duration-ms="8594">
     <groups>
     </groups>
-    <test started-at="2021-10-16T11:44:18 ICT" name="Default test" finished-at="2021-10-16T11:44:24 ICT" duration-ms="6384">
-      <class name="TH_TestNG.LG_test">
-        <test-method is-config="true" signature="open_browser()[pri:0, instance:TH_TestNG.LG_test@4386f16]" started-at="2021-10-16T11:44:18 ICT" name="open_browser" finished-at="2021-10-16T11:44:21 ICT" duration-ms="3733" status="PASS">
+    <test started-at="2021-10-19T20:01:29 ICT" name="Default test" finished-at="2021-10-19T20:01:37 ICT" duration-ms="8594">
+      <class name="TH_TestNG.check_dangky">
+        <test-method is-config="true" signature="open_browser()[pri:0, instance:TH_TestNG.check_dangky@47d90b9e]" started-at="2021-10-19T20:01:29 ICT" name="open_browser" finished-at="2021-10-19T20:01:32 ICT" duration-ms="3507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_browser -->
-        <test-method is-config="true" signature="verify_homepage()[pri:0, instance:TH_TestNG.LG_test@4386f16]" started-at="2021-10-16T11:44:21 ICT" name="verify_homepage" finished-at="2021-10-16T11:44:21 ICT" duration-ms="9" status="PASS">
+        <test-method signature="dangky()[pri:0, instance:TH_TestNG.check_dangky@47d90b9e]" started-at="2021-10-19T20:01:32 ICT" name="dangky" finished-at="2021-10-19T20:01:33 ICT" duration-ms="700" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_homepage -->
-        <test-method signature="v_rfgis()[pri:1, instance:TH_TestNG.LG_test@4386f16]" started-at="2021-10-16T11:44:21 ICT" name="v_rfgis" finished-at="2021-10-16T11:44:22 ICT" duration-ms="645" status="PASS">
+        </test-method> <!-- dangky -->
+        <test-method signature="thongtin()[pri:1, instance:TH_TestNG.check_dangky@47d90b9e]" started-at="2021-10-19T20:01:33 ICT" name="thongtin" finished-at="2021-10-19T20:01:33 ICT" duration-ms="393" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- v_rfgis -->
-        <test-method is-config="true" signature="back_homepage_2()[pri:0, instance:TH_TestNG.LG_test@4386f16]" started-at="2021-10-16T11:44:22 ICT" name="back_homepage_2" finished-at="2021-10-16T11:44:23 ICT" duration-ms="617" status="PASS">
+        </test-method> <!-- thongtin -->
+        <test-method signature="mailling()[pri:2, instance:TH_TestNG.check_dangky@47d90b9e]" started-at="2021-10-19T20:01:33 ICT" name="mailling" finished-at="2021-10-19T20:01:34 ICT" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- back_homepage_2 -->
-        <test-method is-config="true" signature="verify_homepage()[pri:0, instance:TH_TestNG.LG_test@4386f16]" started-at="2021-10-16T11:44:23 ICT" name="verify_homepage" finished-at="2021-10-16T11:44:23 ICT" duration-ms="6" status="PASS">
+        </test-method> <!-- mailling -->
+        <test-method signature="user_information()[pri:3, instance:TH_TestNG.check_dangky@47d90b9e]" started-at="2021-10-19T20:01:34 ICT" name="user_information" finished-at="2021-10-19T20:01:34 ICT" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_homepage -->
-        <test-method signature="click_support()[pri:2, instance:TH_TestNG.LG_test@4386f16]" started-at="2021-10-16T11:44:23 ICT" name="click_support" finished-at="2021-10-16T11:44:23 ICT" duration-ms="626" status="PASS">
+        </test-method> <!-- user_information -->
+        <test-method signature="submit_inf()[pri:4, instance:TH_TestNG.check_dangky@47d90b9e]" started-at="2021-10-19T20:01:34 ICT" name="submit_inf" finished-at="2021-10-19T20:01:35 ICT" duration-ms="1266" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- click_support -->
-        <test-method is-config="true" signature="back_homepage_2()[pri:0, instance:TH_TestNG.LG_test@4386f16]" started-at="2021-10-16T11:44:23 ICT" name="back_homepage_2" finished-at="2021-10-16T11:44:24 ICT" duration-ms="611" status="PASS">
+        </test-method> <!-- submit_inf -->
+        <test-method signature="back_login()[pri:5, instance:TH_TestNG.check_dangky@47d90b9e]" started-at="2021-10-19T20:01:35 ICT" name="back_login" finished-at="2021-10-19T20:01:36 ICT" duration-ms="669" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- back_homepage_2 -->
-        <test-method is-config="true" signature="close_browser()[pri:0, instance:TH_TestNG.LG_test@4386f16]" started-at="2021-10-16T11:44:24 ICT" name="close_browser" finished-at="2021-10-16T11:44:24 ICT" duration-ms="97" status="PASS">
+        </test-method> <!-- back_login -->
+        <test-method signature="dangnhap()[pri:6, instance:TH_TestNG.check_dangky@47d90b9e]" started-at="2021-10-19T20:01:36 ICT" name="dangnhap" finished-at="2021-10-19T20:01:37 ICT" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dangnhap -->
+        <test-method signature="verify_check_login()[pri:7, instance:TH_TestNG.check_dangky@47d90b9e]" started-at="2021-10-19T20:01:37 ICT" name="verify_check_login" finished-at="2021-10-19T20:01:37 ICT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_check_login -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:TH_TestNG.check_dangky@47d90b9e]" started-at="2021-10-19T20:01:37 ICT" name="close_browser" finished-at="2021-10-19T20:01:37 ICT" duration-ms="52" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browser -->
-      </class> <!-- TH_TestNG.LG_test -->
+      </class> <!-- TH_TestNG.check_dangky -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
